@@ -1,19 +1,17 @@
 // ECMAScript 6
 
-
-
-// String Interpolation
 {
+    // String Interpolation
 
     let west = "West";
     console.log(`Wild Wild ${west}`);
 
 }
 
-// Default parameters
-
 {
-    function makeBountyMessage (bandit, defaultBounty = 7000, alive = true, ) {
+    // Default parameters
+
+    function makeBountyMessage(bandit, defaultBounty = 7000, alive = true, ) {
         return `WANTED: ${bandit} BOUNTY: ${defaultBounty} ALIVE: ${alive}`;
     }
 
@@ -28,9 +26,10 @@
     console.log(bar);
 
 }
-// Rest Parameter
 
 {
+    // Rest Parameter
+
     function f(x, y, ...a) {
         return a;
     }
@@ -39,20 +38,21 @@
 
 }
 
-// Spread Parameter
 {
 
-let params = ["Web", "Dev", "Redemption"]
-let other = ["BEST", "MOSTAR", ...params] // [ 'BEST', 'MOSTAR', 'Web', 'Dev', 'Redemption' ]
+    // Spread Parameter
 
-let str = "foo"
-let chars = [...str] // [ "f", "o", "o" ]
+    let params = ["Web", "Dev", "Redemption"]
+    let other = ["BEST", "MOSTAR", ...params] // [ 'BEST', 'MOSTAR', 'Web', 'Dev', 'Redemption' ]
+
+    let str = "foo"
+    let chars = [...str] // [ "f", "o", "o" ]
 
 }
 
-
-// Property Shorthand
 {
+    // Property Shorthand
+
 
     // Before
     {
