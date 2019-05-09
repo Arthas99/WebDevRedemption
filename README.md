@@ -19,8 +19,8 @@ node app.js
 ```
 
 
-[01-basicJs](01-basicJS)
-[02-NodeModuleExport](02-NodeModuleExport) 
+* [01-basicJs](01-basicJS)
+* [02-NodeModuleExport](02-NodeModuleExport) 
 
 ### Folders with NPM install
 
@@ -29,9 +29,9 @@ In these folders you need to run
 ```
 npm install
 ```
-[03-NodeExpress](03-NodeExpress)
-[04-NodeProject](04-NodeProject) 
-[05-VueProject](05-VueProject) 
+* [03-NodeExpress](03-NodeExpress)
+* [04-NodeProject](04-NodeProject) 
+* [05-VueProject](05-VueProject) 
 
 ### Vue project
 
