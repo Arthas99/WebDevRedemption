@@ -1,5 +1,8 @@
 // ECMAScript 6
+{
 
+    ()
+}
 {
     // String Interpolation
 
