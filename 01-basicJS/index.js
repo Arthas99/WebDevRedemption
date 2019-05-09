@@ -14,7 +14,7 @@
 {
     // Default parameters
 
-    function makeBountyMessage(bandit, defaultBounty = 7000, alive = true, ) {
+    function makeBountyMessage(bandit, defaultBounty = 7000, alive = true ) {
         return `WANTED: ${bandit} BOUNTY: ${defaultBounty} ALIVE: ${alive}`;
     }
 
