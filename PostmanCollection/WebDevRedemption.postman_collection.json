@@ -1,0 +1,224 @@
+{
+	"variables": [],
+	"info": {
+		"name": "WebDevRedemption",
+		"_postman_id": "5d7c0415-fa63-e919-8a74-e8794ed87d88",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "03-NodeExpress",
+			"description": "",
+			"item": [
+				{
+					"name": "FirstGet",
+					"request": {
+						"url": "localhost:3500",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "FirstPost",
+					"request": {
+						"url": "localhost:3500/",
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "SecondPost",
+					"request": {
+						"url": "localhost:3500/1",
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "04-Wanted",
+					"request": {
+						"url": "localhost:3500/wanted",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "05 - Default",
+					"request": {
+						"url": "localhost:3500/default",
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:3500/add",
+					"request": {
+						"url": "localhost:3500/add",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"bandit_name\": \"Buffalo\",\n\t\"bounty\" : \"200000\",\n\t\"currency\" : \"USD\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "app.patch /wanted/:name",
+					"request": {
+						"url": {
+							"raw": "localhost:3500/search?name=Buffalo",
+							"host": [
+								"localhost"
+							],
+							"port": "3500",
+							"path": [
+								"search"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Buffalo",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "",
+								"value": "",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"bandit_name\": \"Annie Two Guns\",\n\t\"bounty\" : \"200000\",\n\t\"currency\" : \"USD\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "04-NodeProject",
+			"description": "",
+			"item": [
+				{
+					"name": "localhost:3500/bandit",
+					"request": {
+						"url": "localhost:3500/add",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"Buffalo\",\n\t\"bounty\" : \"200000\",\n\t\"currency\" : \"USD\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Get Bandits 3500",
+					"request": {
+						"url": "localhost:3500/bandit",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"Buffalo Kid\",\n\t\"bounty\" : \"400000\",\n\t\"currency\" : \"USD\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:3500/search/Buffalo",
+					"request": {
+						"url": {
+							"raw": "localhost:3500/search?name=Buffalo",
+							"host": [
+								"localhost"
+							],
+							"port": "3500",
+							"path": [
+								"search"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Buffalo",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "",
+								"value": "",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"bandit_name\": \"Annie Two Guns\",\n\t\"bounty\" : \"200000\",\n\t\"currency\" : \"USD\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
