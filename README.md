@@ -1,7 +1,7 @@
-# WebDevRedeption
+# WebDevRedemption
 
 * [BEST Mostar](https://best-mostar.org)
-* [BEST Mostar WebDev Redeption](https://course19.best-mostar.org)
+* [BEST Mostar WebDev Redemption](https://course19.best-mostar.org)
 * [BEST Course information](https://best.eu.org/event/details.jsp?activity=g5tb3rb)
 
 Code for lesson HTTP/Backed helded at May 10 2019.
