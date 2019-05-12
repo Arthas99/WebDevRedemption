@@ -1,1 +1,1 @@
-module.exports = "I need a gun";
+module.exports = "I need a gun"; // Exporting simple string
